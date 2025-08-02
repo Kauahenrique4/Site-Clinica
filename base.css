@@ -1,0 +1,264 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(105, 105, 105);
+    padding: 10px 20px 0px;
+    background-image: url('https://th.bing.com/th/id/R.47a54046a8a0bf77b047d4189313297b?rik=nS6lOk06Bx9NEA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2f9%2f2%2f1520340-amazing-medical-wallpaper-backgrounds-1920x1200.jpg&ehk=YlJxKN9%2fiU8UGAXA1itG5a4Nd%2fOJedKuXi7BNNMeXMg%3d&risl=&pid=ImgRaw&r=0);');
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
+    background-image: url('https://libg.s3.us-east-2.amazonaws.com/download/670/670-Modern-Medicine.png');
+    background-size: cover;
+}
+.header h1 {
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+font-size: 3em; color: #fffdd9;
+    color: rgb(0, 221, 236);
+    font-size: 60px;
+    margin-left: 300px;
+}
+
+.content {
+    background-image: url('https://wallpaperaccess.com/full/4112935.png');
+    min-height: 300px;
+    height: 100%;
+    padding: 20px;
+}
+.content p {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+.content ul {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.content h3 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.content h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.footer {
+    background-color: rgb(245, 245, 245);
+    min-height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+}
+.pagina {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.menu-list {
+    gap: 50px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 100px 0;
+
+}
+
+.menu-list a:hover {
+    color: blue;
+
+}
+.content1 {
+    background-image: url('https://wallpaperaccess.com/full/4112935.png');
+    min-height: 300px;
+    height: 100%;
+    padding: 20px;
+}
+.content1 p {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+.content1 h2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+.header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
+    background-image: url('https://img.freepik.com/premium-photo/picture-shows-group-doctors-huddling-clasping-hands-together-generative-ai_28914-22973.jpg?w=2000');
+    background-size: cover;
+}
+.header1 h1 {
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+font-size: 3em; color: #fffdd9;
+    color: rgb(0, 221, 236);
+    font-size: 60px;
+    margin-left: 300px;
+}
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
+    background-image: url('https://personnaliza.com.br/wp-content/uploads/2019/07/contato.jpg');
+    background-position: 10% 60%;
+    background-size: cover;
+}
+.header2 h1 {
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+font-size: 3em; color: #fffdd9;
+    color: rgb(0, 221, 236);
+    font-size: 60px;
+    margin-left: 300px;
+}
+.header3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
+    background-image: url('https://img.freepik.com/vector-premium/recepcionista-hospital-recepcion-emergencia-interior-estilo-plano_768258-394.jpg');
+    background-size: cover;
+}
+.header3 h1 {
+        -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+font-size: 3em; color: #fffdd9;
+    color: rgb(0, 221, 236);
+    font-size: 60px;
+    margin-left: 300px;
+}
+.content3{
+    background-image: url('https://img.freepik.com/fotos-premium/uma-foto-de-uma-recepcao-minimalista-de-um-hospital-com-foco-em-um-paciente-digital-amigavel_933496-25374.jpg');
+    background-size: cover;
+    min-height: 300px;
+    height: 100%;
+    padding: 10px;
+}
+.content2{
+    background-image: url('https://wallpaperaccess.com/full/4112935.png');
+    min-height: 300px;
+    height: 100%;
+    padding: 10px;
+}
+.content2 h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.content2 iframe {
+    border: 0;
+    width: 60%;
+    height: 700%;
+}
+.form {
+    position: relative;
+    width: 90%;
+    margin: 100px left auto;
+
+    height: 90%;
+    max-width: 450px;
+}
+
+.social-media a:hover {
+    color: blue;
+
+}
+.social-media {
+    a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.table {
+    width: 50%;
+    height: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table th, .table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #222;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #aaaaaa;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #f8f7f7;
+}
+.services {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
